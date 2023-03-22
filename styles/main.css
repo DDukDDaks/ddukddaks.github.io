@@ -10169,15 +10169,19 @@ body {
   }
   
   .gallery-prev-button {
-    /* margin-left: 10px; */
-    width: 50vw;
-    height: 100vw;
+    margin-right: 50vw;
+    bottom: 15vw;
+    width: 30vw;
+    /* height: 100vw; */
+    position: absolute;
   }
   
   .gallery-next-button {
-    /* margin-right: 10px; */
-    width: 50vw;
-    height: 100vw;
+    margin-left: 50vw;
+    bottom: 15vw;
+    /* width: 30vw; */
+    /* height: 100vw; */
+    position: absolute;
   }
   
   .gallery-close-button {
