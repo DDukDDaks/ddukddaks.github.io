@@ -82,7 +82,7 @@ $("a.smooth-scroll").click(function (event) {
 
 // gallay more
 $(document).ready(function () {
-    var images = ['./images/pic1.jpg', './images/pic2.jpg', './images/pic3.jpg','./images/pic4.jpg','./images/pic5.jpg','./images/pic6.jpg','./images/pic7.jpg','./images/pic8.jpg','./images/pic9.jpg','./images/pic10.jpg','./images/pic11.jpg','./images/pic12.jpg','./images/pic13.jpg','./images/pic14.jpg','./images/pic15.jpg','./images/pic16.jpg','./images/pic17.jpg','./images/pic18.jpg','./images/pic19.jpg','./images/pic20.jpg' ];
+    var images = ['./images/pic1.jpg', './images/pic2.jpg', './images/pic4.jpg','./images/pic7.jpg','./images/pic8.jpg','./images/pic9.jpg','./images/pic10.jpg','./images/pic12.jpg','./images/pic13.jpg','./images/pic14.jpg','./images/pic15.jpg','./images/pic16.jpg','./images/pic17.jpg','./images/pic18.jpg','./images/pic19.jpg','./images/pic20.jpg' ];
     var currentImageIndex;
 
     // 이미지 클릭시 팝업 창 열기
