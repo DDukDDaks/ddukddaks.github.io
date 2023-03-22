@@ -10168,17 +10168,21 @@ body {
   }
   
   .gallery-prev-button {
-    margin-left: 20px;
+    /* margin-left: 10px; */
+    width: 15vw;
+    height: 100vw;
   }
   
   .gallery-next-button {
-    margin-right: 20px;
+    /* margin-right: 10px; */
+    width: 15vw;
+    height: 100vw;
   }
   
   .gallery-close-button {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 10vw;
+    right: 10vw;
   }
 
 
