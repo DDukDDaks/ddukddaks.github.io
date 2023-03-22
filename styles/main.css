@@ -4,6 +4,22 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ /* 카페24 고운밤 */
+@font-face { font-family: 'Cafe24Oneprettynight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 카페24 쑥쑥 */
+@font-face { font-family: 'Cafe24Ssukssuk'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Ssukssuk.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 카페24 심플해 */
+@font-face { font-family: 'Cafe24Simplehae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 카페24 동동 */
+@font-face { font-family: 'Cafe24Dongdong'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 카페24 아네모네 */
+@font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 카페24 당당해 */
+@font-face { font-family: 'Cafe24Dangdanghae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -10066,10 +10082,10 @@ body {
 
 /* 사진갤러리  */
 .gallery_more_button {
-    font-size: 0.9em;
+    font-size: 1.2rem;
     display: inline-block;
     padding: 5px 50px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     color: #1f1f1f;
     text-decoration: none;
 }
